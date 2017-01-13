@@ -11,6 +11,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     private static final String EXTRA_EVENT_ID = "EXTRA_EVENT_ID";
+    //adb -d forward tcp:5601 tcp:5601
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
